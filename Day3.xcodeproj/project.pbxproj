@@ -13,6 +13,7 @@
 		EFA2487F2461EBD200E86AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA2487E2461EBD200E86AE9 /* Assets.xcassets */; };
 		EFA248822461EBD200E86AE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA248812461EBD200E86AE9 /* Preview Assets.xcassets */; };
 		EFA248852461EBD200E86AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA248832461EBD200E86AE9 /* LaunchScreen.storyboard */; };
+		EFA2488F2461EFDE00E86AE9 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA2488E2461EFDE00E86AE9 /* DetailsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EFA248812461EBD200E86AE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFA248842461EBD200E86AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA248862461EBD300E86AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA2488E2461EFDE00E86AE9 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EFA248782461EBD200E86AE9 /* AppDelegate.swift */,
 				EFA2487A2461EBD200E86AE9 /* SceneDelegate.swift */,
 				EFA2487C2461EBD200E86AE9 /* ContentView.swift */,
+				EFA2488E2461EFDE00E86AE9 /* DetailsPage.swift */,
 				EFA2487E2461EBD200E86AE9 /* Assets.xcassets */,
 				EFA248832461EBD200E86AE9 /* LaunchScreen.storyboard */,
 				EFA248862461EBD300E86AE9 /* Info.plist */,
@@ -149,6 +152,7 @@
 				EFA248792461EBD200E86AE9 /* AppDelegate.swift in Sources */,
 				EFA2487B2461EBD200E86AE9 /* SceneDelegate.swift in Sources */,
 				EFA2487D2461EBD200E86AE9 /* ContentView.swift in Sources */,
+				EFA2488F2461EFDE00E86AE9 /* DetailsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = 7K3JE8ZT37;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Day3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = 7K3JE8ZT37;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Day3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
